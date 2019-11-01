@@ -1,0 +1,147 @@
+.prompt {
+    height: 100vh;
+    width: 0 auto;
+    background: url(../prompt/paul-fiedler-L-O36LuX9TY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% -250px;
+    color: #ffffff;
+  }
+  
+  .prompt-erea {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .prompt-inner {
+    position: absolute;
+    height: 60%;
+    width: 95%;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 30px;
+    top: 90%;
+    -webkit-transform: translateY(-90%);
+            transform: translateY(-90%);
+    padding: 4rem 2rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #000000;
+  }
+  
+  .prompt-inner h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .prompt-inner h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+  }
+  
+  .btn1 {
+    color: #ffffff;
+    background: #0FCC41;
+    margin-top: 2rem;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 1.5px;
+  }
+  
+  .footer-area {
+    position: absolute;
+    height: 50px;
+    width: 90%;
+    border-top: solid 1px #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  
+  @media screen and (max-width: 1030px) {
+    .prompt-inner {
+      padding: 5rem 3rem;
+    }
+    .prompt-inner h1 {
+      margin-bottom: 3rem;
+    }
+    .prompt-inner h2 {
+      margin-bottom: 2rem;
+    }
+    .prompt-inner p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media screen and (max-width: 766px) {
+    .prompt-contents {
+      width: 80%;
+    }
+    .prompt-inner {
+      text-align: center;
+      padding: 3rem 1.5rem;
+    }
+    .prompt-inner h1 {
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+    .prompt-inner h2 {
+      margin-bottom: 0.5rem;
+      font-size: 1.3rem;
+    }
+    .prompt-inner p {
+      font-size: 1rem;
+    }
+    .btn1 {
+      margin-top: 1.5rem;
+    }
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+  }
+  
+  body {
+    letter-spacing: 1.5px;
+    background: #000000;
+  }
+  
+  .face {
+    background: #305097;
+  }
+  
+  .twi {
+    background: #00aced;
+  }
+  
+  .goo {
+    background: #db4a39;
+  }
+  /*# sourceMappingURL=main.css.map */

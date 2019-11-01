@@ -1,0 +1,28 @@
+.page {
+    margin-top: 5rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.active-page {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-top: 11px;
+    background-color: grey;
+}
+
+.page-link {
+    color: white;
+    margin: 0 auto;
+}
+

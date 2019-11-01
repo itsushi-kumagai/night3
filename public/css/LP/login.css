@@ -1,0 +1,198 @@
+/*@import "./header";
+@import "./card";
+@import "./category";
+@import "./howtouse";*/
+#email {
+  width: 100%;
+}
+
+#password {
+  width: 100%;
+}
+
+.login {
+  background: url("../../LPImages/danny-howe-bn-D2bCvpik-unsplash.jpg");
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  position: relative;
+  height: 80vh;
+}
+
+.login-contents {
+  background: rgba(0, 0, 0, 0.4);
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+}
+
+.login-base {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+
+.login-base h2 {
+  margin: 0;
+}
+
+.login-erea {
+  margin: 0 auto;
+}
+
+.login-erea p {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.login-erea input {
+  color: #ffffff;
+  padding: 5px 10px;
+  width: 350px;
+  height: 25px;
+  border-radius: 30px;
+  border: solid 3px #ffffff;
+  background: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.login-box {
+  margin: 12px 0;
+  padding: 0 20px;
+  font-size: 12px;
+  color: #fff;
+  background: none;
+  border-radius: 30px;
+  height: 2.3em;
+  width: 25em;
+  outline: none;
+  border: #fff solid 3px;
+}
+
+.login-link {
+  margin-top: 2.5rem;
+}
+
+.login-link button {
+  background-color: #0FCC41;
+  color: white;
+  margin-top: 10px;
+  border-radius: 30px;
+  font-size: 24px;
+  padding: 4px 20px 4px 20px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  width: 120px;
+}
+
+.forgot {
+  margin-top: 0.5rem;
+}
+
+.forgot a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 0.5px solid white;
+}
+
+.sns-icon-erea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem 0 0.5rem;
+}
+
+.sns-icon {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.sns-icon i {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+/*@import "./footer";
+@import "./footer";*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+body {
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 38px;
+}
+
+h3 {
+  color: white;
+  font-size: 33px;
+}
+
+h4 {
+  color: white;
+  font-size: 23px;
+  margin-top: 2rem;
+}
+
+.face {
+  background: #305097;
+}
+
+.face a {
+  color: white;
+}
+
+.twi {
+  background: #00aced;
+}
+
+.twi a {
+  color: white;
+}
+
+.goo {
+  background: #db4a39;
+}
+
+.goo a {
+  color: white;
+}
+
+#email {
+  width: 90%;
+}
+
+#password {
+  width: 90%;
+}
+/*# sourceMappingURL=main.css.map */

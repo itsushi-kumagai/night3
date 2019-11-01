@@ -1,0 +1,157 @@
+/*@import "./header";*/
+h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.event-name {
+  font-size: 20px;
+  color: white;
+}
+
+.event-name a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+}
+
+.heart {
+  background-color: black;
+  cursor: pointer;
+  border: none;
+  float: right;
+  padding-right: 5px;
+}
+
+.heart:focus {
+  outline: none;
+}
+
+
+.heart-button {
+  background-color: black;
+  cursor: pointer;
+  border: none;
+  float: right;
+  padding-right: 5px;
+}
+
+.heart-button:focus {
+  outline: none;
+}
+
+.event-date {
+  font-size: 18px;
+  color: #FD8700;
+}
+
+.card-info {
+  color: white;
+  font-size: 18px;
+}
+
+.save-mark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*@import "./category";
+@import "./howtouse";
+@import "./login";
+@import "./footer";
+@import "./footer";*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+body {
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 38px;
+}
+
+h3 {
+  color: white;
+  font-size: 33px;
+}
+
+h4 {
+  color: white;
+  font-size: 23px;
+  margin-top: 2rem;
+}
+
+.face {
+  background: #305097;
+}
+
+.twi {
+  background: #00aced;
+}
+
+.goo {
+  background: #db4a39;
+}
+/*# sourceMappingURL=main.css.map */
+
+.showmore{
+  margin-top: 4rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  
+}
+
+.showmore a{
+  color: white;
+  border-radius: 30px;
+  font-size: 24px;
+  padding: 4px 20px 4px 20px;
+  border:0;
+  cursor: pointer;
+  text-decoration: none;
+  background: #7206F7;
+  }
+  @media screen and (max-width: 1023px) {
+
+
+
+  }
+  @media screen and (max-width: 800px) {
+    .card-info {
+      color: white;
+      font-size: 18px;
+    }
+    .use_contents {
+      padding: 20px;
+    }
+    .use_contents img {
+      margin-right: 1rem;
+      width: 40%;
+    }
+    .use_contents2 {
+      margin-left: 0;
+    }
+    .use_contents2 img {
+      margin-right: 0;
+      margin-left: 1rem;
+    }
+    .Description {
+      width: 100%;
+    }
+    h4 {
+      margin: 0;
+    }
+  }

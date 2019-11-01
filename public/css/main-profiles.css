@@ -1,0 +1,646 @@
+@charset "UTF-8";
+.header {
+  height: 50px;
+  background: #2D2524;
+  padding: 0 20px;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+
+.logo {
+  line-height: 50px;
+  float: left;
+  text-transform: uppercase;
+}
+
+.menu {
+  float: right;
+  line-height: 50px;
+}
+
+.menu a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.show-menu-btn, .hide-menu-btn {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.show-menu-btn {
+  float: right;
+}
+
+.show-menu-btn i {
+  line-height: 50px;
+}
+
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover {
+  color: grey;
+}
+
+.paragrah {
+  height: 50%;
+  width: 30%;
+  color: white;
+  margin-left: 5em;
+  margin-top: 7em;
+  margin-bottom: 20em;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: justify;
+}
+
+#chk {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+
+/*.content {
+    padding: o 20px;
+
+    img {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px 0;
+    }
+}*/
+
+.search {
+  padding-top: 0em;
+  margin-left: 24em;
+}
+
+.search_text {
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: white;
+  padding-left: 15px;
+  border-radius: 100px;
+  border: none;
+  font-size: 16px;
+  line-height: 30px;
+  width: 24%;
+  font-weight: 400;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.search_text:focus {
+  outline: none;
+}
+
+.search_date {
+  background-color: white;
+  margin-right: 15px;
+  padding-left: 15px;
+  border-radius: 100px;
+  border: none;
+  font-size: 15px;
+  line-height: 25px;
+  width: 15%;
+  font-weight: 400;
+}
+
+.search_date:focus {
+  outline: none;
+}
+
+.search-btn {
+  margin-left: 10px;
+  border-radius: 50%;
+  height: 38px;
+  width: 38px;
+  background-color: white;
+}
+
+.search-btn:focus {
+  outline: none;
+}
+
+.profile {
+  margin-top: 3rem;
+}
+
+.profile img {
+  width: 330px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.person img {
+  width: 130px;
+  height: 130px;
+  border: 2px solid white;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 85px;
+  margin-top: -4rem;
+}
+
+.userinfo {
+  border-bottom: 0.2px solid #3d3d3d;
+}
+
+.change {
+  color: white;
+  margin-top: 10px;
+  border-radius: 30px;
+  height: 40px;
+  font-size: 15px;
+  border: 0;
+  cursor: pointer;
+  background-color: #F70661;
+  width: 85px;
+  height: 30px;
+  float: right;
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+.change a {
+  margin-left: 7px;
+  color: white;
+  text-decoration: none;
+}
+
+.change:focus {
+  outline: none;
+}
+
+.information {
+  margin-top: 3rem;
+  margin-left: 130px;
+  font-size: 18px;
+}
+
+.information p {
+  color: white;
+  font-size: 17px;
+  letter-spacing: 1px;
+  width: 30rem;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border-bottom: 1px solid white;
+}
+
+.information input {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: none;
+  width: 30rem;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 30px;
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+
+.information input:focus {
+  outline: none;
+}
+
+.information textarea {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.information textarea:focus {
+  outline: none;
+}
+
+.description {
+  margin-left: 8rem;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  width: 30rem;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.description p {
+  margin-top: 15px;
+  margin-left: 1rem;
+  letter-spacing: 1px;
+}
+
+.user-description {
+  margin-bottom: 30px;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+
+.gender {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 26px;
+  border: none;
+}
+
+.gender select {
+  background-color: white;
+  background: none;
+  color: #333333;
+  font-size: 15px;
+  height: 30px;
+  width: 40%;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.country {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 26px;
+  border: none;
+}
+
+.country select {
+  background-color: white;
+  background: none;
+  color: #333333;
+  font-size: 15px;
+  height: 30px;
+  width: 40%;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+/*
+@mixin button-decoration {
+    color: white;
+    margin-top: 10px;
+    border-radius: 30px;
+    height: 40px;
+    font-size: 15px;
+    border:0;
+    cursor: pointer;
+}
+
+@mixin select {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 26px;
+    border: none;
+}
+
+
+@mixin select-effect {
+    background-color: white;
+    background: none;
+    color: rgb(51, 51, 51);
+    font-size: 15px;
+    height: 30px;
+    width: 40%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.profile {
+    margin-top: 3rem;
+    img {
+        width: 330px;
+        object-fit: cover;
+    }
+}
+
+.person {
+    img {
+        width: 130px;
+        height: 130px;
+        border: 2px solid white;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-left: 85px;
+        margin-top: -4rem;
+    }
+}
+
+.userinfo {
+    border-bottom: 0.2px solid rgb(61, 61, 61);
+}
+
+
+.change {
+    @include button-decoration();
+    background-color: $saveBtn;
+    width: 85px;
+    height: 30px;
+    float: right;
+    margin-right: 50px;
+    font-size: 18px;
+    a {
+        margin-left: 7px;
+        color: white;
+        text-decoration: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.information {
+    margin-top: 3rem;
+    margin-left: 130px;
+    font-size: 18px;
+    p {
+        color: white;
+        font-size: 17px;
+        letter-spacing: 1px;
+        width: 30rem;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 30px;
+        border-bottom: 1px solid white;
+    }
+
+    input {
+        color: white;
+        font-size: 18px;
+        letter-spacing: 1px;
+        border: none;
+        width: 30rem;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 30px;
+        background-color: black;
+        border-bottom: 1px solid white;
+        &:focus {
+            outline: none;
+        }
+    }
+   
+
+
+    textarea {
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        margin-left: 30px;
+        &:focus {
+            outline: none;
+        }
+    }
+
+}
+
+.description {
+    margin-left: 8rem;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 30rem;
+    height: 30px;
+    margin-top: 10px;
+    p{
+        margin-top: 15px;
+        margin-left: 1rem;
+        letter-spacing: 1px;
+    }
+}
+
+.user-description{
+    margin-bottom: 30px;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+
+
+.gender {
+    @include select();
+    select {
+        @include select-effect();
+    }
+}
+
+.country {
+    @include select();
+    select {
+        @include select-effect();
+    }
+}
+
+
+
+
+
+*/
+table {
+  margin-top: 50px;
+  margin-bottom: 3rem;
+  width: 100%;
+  background-color: #1f1e1e;
+  color: white;
+  border: 0.1px solid #807e7e;
+}
+
+table thead {
+  font-size: 14px;
+}
+
+table td img {
+    width: 30px;
+    height: 30px;
+}
+
+table tbody {
+  font-size: 14px;
+  text-align: center;
+}
+
+.add-btn {
+  color: white;
+  border-radius: 30px;
+  font-size: 15px;
+  border: 0;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  border: 1px solid #807e7e;
+  margin-bottom: 20px;
+  background-color: #F70661;
+  margin-left: 73rem;
+}
+
+.add-btn:focus {
+  outline: none;
+}
+
+.edit-btn {
+  color: white;
+  border-radius: 30px;
+  font-size: 15px;
+  border: 0;
+  cursor: pointer;
+  width: 70px;
+  height: 33px;
+  border: 1px solid #807e7e;
+  margin-bottom: 20px;
+  background-color: #0FCC41;
+}
+
+.edit-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.edit-btn:focus {
+  outline: none;
+}
+
+.delete-btn {
+  color: white;
+  border-radius: 30px;
+  font-size: 15px;
+  border: 0;
+  cursor: pointer;
+  width: 70px;
+  height: 33px;
+  border: 1px solid #807e7e;
+  margin-bottom: 20px;
+  background-color: #7206F7;
+}
+
+.delete-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.delete-btn:focus {
+  outline: none;
+}
+
+.restore-btn {
+  color: white;
+  border-radius: 30px;
+  font-size: 15px;
+  border: 0;
+  cursor: pointer;
+  width: 70px;
+  height: 33px;
+  border: 1px solid #807e7e;
+  background-color: #0FCC41;
+}
+
+
+.restore-btn:focus {
+  outline: none;
+}
+
+
+/*
+.delete-btn {
+  color: white;
+  border-radius: 30px;
+  font-size: 15px;
+  border: 0;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  border: 1px solid #807e7e;
+  margin-bottom: 20px;
+  background-color: #7206F7;
+}
+
+.delete-btn:focus {
+  outline: none;
+}
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  overflow: auto;
+}
+/*# sourceMappingURL=main.css.map */
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  .show-menu-btn, .hide-menu-btn {
+    display: block;
+  }
+  .menu {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    /*background: linear-gradient(to bottom right, #F9A4A4, #B225F8, #C00A90);*/
+    background: rgba(0, 0, 0, 0.9);
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .menu-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* 子要素をflexboxにより縦方向に揃える */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* 子要素をflexboxにより中央に配置する */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* 子要素をflexboxにより中央に配置する*/
+  }
+  .menu a {
+    display: block;
+    padding: 20px;
+  }
+  .hide-menu-btn {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  #chk:checked ~ .menu {
+    right: 0;
+  }
+
+  
+}

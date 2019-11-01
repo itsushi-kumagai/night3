@@ -1,0 +1,123 @@
+/*@import "./header";
+@import "./card";*/
+.category-container {
+  margin-top: 8rem;
+}
+
+.category-card {
+  padding: 0 50px 80px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.category-card p {
+  text-transform: uppercase;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.category-image {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  border: solid #ffffff 1px;
+}
+
+.category-image img {
+  width: 220px;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.category-image img:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+@media screen and (max-width: 800px) {
+  .category-card {
+    display: block;
+  }
+  .category-card-content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 70px;
+    position: relative;
+  }
+  .category-card-content p {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+            transform: translateY(-50%) translateX(-50%);
+    font-size: 45px;
+  }
+  .category-image {
+    margin: 0 auto;
+    border: solid 1px #ffffff;
+  }
+  .category-image img {
+    opacity: 0.7;
+  }
+}
+
+/*@import "./howtouse";
+@import "./login";
+@import "./footer";
+/*@import "./footer";*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+body {
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 38px;
+}
+
+h3 {
+  color: white;
+  font-size: 33px;
+}
+
+h4 {
+  color: white;
+  font-size: 23px;
+  margin-top: 2rem;
+}
+
+.face {
+  background: #305097;
+}
+
+.twi {
+  background: #00aced;
+}
+
+.goo {
+  background: #db4a39;
+}
+/*# sourceMappingURL=main.css.map */
